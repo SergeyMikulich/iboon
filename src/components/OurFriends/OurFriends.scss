@@ -1,0 +1,12 @@
+.our-friends-container {
+    padding: 30px;
+    .alice-carousel__stage-item {
+        img {
+            width: 50%;
+        }
+    }
+
+    .alice-carousel__prev-btn, .alice-carousel__next-btn {
+        display: none;
+    }
+}

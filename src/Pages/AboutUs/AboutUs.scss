@@ -1,0 +1,80 @@
+#aboutUs {
+    .container {
+        display: flex;
+        gap: 25px;
+        max-height: 500px;
+        .accordions {
+            margin-top: 25px;
+
+            .MuiAccordion-root {
+                box-shadow: none;
+                background-color: #F7F5F6;
+
+                .MuiAccordionSummary-root {
+                    margin: 0;
+                    padding: 0;
+
+                    .MuiTypography-root {
+                        font-size: 18px;
+                        font-family: "Montserrat", sans-serif;
+                        line-height: 1.56;
+                        font-weight: 400;
+                        text-decoration: none;
+                        font-style: normal;
+                        letter-spacing: 0;
+                        color: #333;
+                        text-transform: none;
+                    }
+                }
+
+                .MuiAccordionDetails-root {
+                    margin: 0;
+                    padding: 0;
+
+                    .MuiTypography-root {
+                        font-size: 14px;
+                        font-family: "Montserrat", sans-serif;
+                        line-height: 1.56;
+                        font-weight: 400;
+                        text-decoration: none;
+                        font-style: normal;
+                        letter-spacing: 0;
+                        color: #333;
+                        text-transform: none;
+                    }
+                }
+            }
+        }
+
+        .aboutUs-wrapper {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F7F5F6;
+
+            span {
+                font-size: 30px;
+                color: #757171 !important;
+                line-height: 1.2;
+                font-weight: 800;
+                text-decoration: none;
+                font-style: normal;
+                letter-spacing: 0;
+                text-transform: none;
+
+                &:first-child {
+                    margin-top: 25px;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    line-height: 1.33;
+                    font-weight: 500;
+                    text-decoration: none;
+                    font-style: normal;
+                    letter-spacing: .064em;
+                    color: #2c2c2c;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}

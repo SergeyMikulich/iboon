@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App {
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn {
+  color: rgb(51, 51, 51);
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn-primary-filled {
+  width: 20%;
+  border-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.3s;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: rgb(123, 181, 124);
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #333333;
+  }
+}
+
+.text-primary {
+  color: rgb(123, 181, 124);
+}
+
+.text-dark {
+  color: rgb(51, 51, 51);
+}
+
+.ui-heading {
+  font-size: 22px;
+  line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #333;
+  text-transform: none;
+}
+
+.ui-text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: .05em;
+  color: #707070;
+  text-transform: none;
+}
