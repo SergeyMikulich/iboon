@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/iboon/static/css/main.fbf200b7.css",
+    "main.js": "/iboon/static/js/main.0500f319.js",
+    "static/js/592.959aa078.chunk.js": "/iboon/static/js/592.959aa078.chunk.js",
+    "static/media/1.png": "/iboon/static/media/1.3733d7b41bb96ca888c8.png",
+    "static/media/iboon-banner.png": "/iboon/static/media/iboon-banner.eecc78192442be80c956.png",
+    "static/media/2.jpg": "/iboon/static/media/2.9b37dca0ae397f6c04ed.jpg",
+    "static/media/logo.png": "/iboon/static/media/logo.2a6873b24ff7f4223f1a.png",
+    "index.html": "/iboon/index.html",
+    "main.fbf200b7.css.map": "/iboon/static/css/main.fbf200b7.css.map",
+    "main.0500f319.js.map": "/iboon/static/js/main.0500f319.js.map",
+    "592.959aa078.chunk.js.map": "/iboon/static/js/592.959aa078.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf200b7.css",
+    "static/js/main.0500f319.js"
+  ]
+}
